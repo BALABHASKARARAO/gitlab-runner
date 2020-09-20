@@ -34,7 +34,7 @@ data "aws_ami" "runner" {
 
   filter {
     name   = "name"
-    values = ["ami-gitlab-runner-*"]
+    values = ["ubuntu/images/ubuntu-*-*-amd64-server-*"]
   }
 }
 

@@ -1,4 +1,5 @@
 #!/bin/bash
+
 set -eu
 
 cat > /etc/gitlab-runner/config.toml <<EOF
