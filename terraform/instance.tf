@@ -30,7 +30,8 @@ data "template_file" "runner" {
 
 data "aws_ami" "runner" {
   most_recent = true
-  owners      = ["self"]
+  owners      = ["454450710196"]
+#  owners      = ["self"]
 
   filter {
     name   = "name"
