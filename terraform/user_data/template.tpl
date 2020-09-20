@@ -53,7 +53,7 @@ EOF
 sudo gitlab-runner register \
   --template-config "/etc/gitlab-runner/template.toml" \
   --non-interactive \
-  --description "${GITLAB_RUNNER_NAME}" \
+  --description "runner-1" \
   --url "${GITLAB_RUNNER_URL}" \
   --executor "docker+machine" \
   --registration-token "${GITLAB_RUNNER_TOKEN}" \
