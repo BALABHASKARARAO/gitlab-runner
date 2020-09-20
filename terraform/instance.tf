@@ -29,7 +29,7 @@ data "template_file" "runner" {
 }
 
 data "aws_ami" "runner" {
-  most_recent = true
+#  most_recent = true
   owners      = ["454450710196"]
 #  owners      = ["self"]
 
