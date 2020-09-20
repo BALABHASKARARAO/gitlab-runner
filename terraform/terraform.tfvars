@@ -1,0 +1,6 @@
+gitlab_runner_token = "kAcoXExMjq-X7t1KJTdy"
+key_name            = "bsasam"
+environment         = "tests"
+vpc_id              = "vpc-3c6e8c41"
+private_subnet_name = "subnet-18721355"
+public_subnet_name  = "subnet-18721355"
