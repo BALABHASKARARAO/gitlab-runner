@@ -30,10 +30,13 @@ variable "key_name" {
 
 variable "gitlab_runner_url" {
   type        = string
-  default     = "https://gitlab.com/"
+  default     = "http://18.204.1.188/"
   description = "Specify URL for the Runner setup"
 }
-
+variable "GITLAB_RUNNER_NAME" {
+  type = string
+  description = "gitlab runner name"
+}
 variable "gitlab_runner_token" {
   type        = string
   description = "Specify token registration for Runner setup"
